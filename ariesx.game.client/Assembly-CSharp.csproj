@@ -1,0 +1,1120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{67A426DD-EE91-A0AB-5456-2B094630D5F1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_1;UNITY_2017_4;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;LONGYUAN;DEVELOPER;NOLYLOGIN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Arts\Shaders\Effect\ParticleEnablePlay.cs" />
+     <Compile Include="Assets\Arts\Shaders\Effect\RotateXYZ.cs" />
+     <Compile Include="Assets\Arts\Shaders\Effect\TestEffect.cs" />
+     <Compile Include="Assets\BattleHealthSimulator.cs" />
+     <Compile Include="Assets\CurveWindowEditor.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Account\AccountManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Account\FBLogin.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Animation\AnimationBase.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Animation\AnimationColor.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Animation\AnimationCombo.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Animation\AnimationEvent.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Animation\AnimationFade.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Animation\AnimationMove.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Animation\AnimationParam.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Animation\AnimationRotate.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Animation\AnimationScale.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Animation\AnimationSize.cs" />
+     <Compile Include="Assets\Scripts\CSharp\BattleSimulator\BattleSimulatorModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\BattleSimulator\BattleSimulatorView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\BattleSimulator\BattleSimulatorViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\AllianceLanguageConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\AllianceLevelConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\ArmyCampConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\ArtPrefabConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\AudioHeroConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\AudioImportConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\AudioSkillConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\BuildingConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\ChapterConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\DailyGiftConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\DailyRewardConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\DailyTaskConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\DailyTaskVitalityConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\DemonTroopConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\DominantUpConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\DramaConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\DurabilityUpConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\EditorBattleCurveConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\EditorBattleHeroAnimationConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\EditorBattleHeroAttackConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\EditorBattleHeroEffectConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\EditorBattleHeroPositionConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\EditorBattleHeroSkillConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\ExploreConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\FirstDownRewardConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\FirstPayConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\FteStepConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\GachaGroupConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\GemProductConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\GoldProductConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\HeroArmyTypeConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\HeroAttackUpConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\HeroAttributeConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\HeroBaseConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\HeroBattleConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\HeroDefenceUpConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\HeroLevelConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\HeroRarityConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\HeroSkillDefaultConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\ListConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\LocalConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\LoginRewardConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\MapBasicTypeConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\MapConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\MapResourceProductionConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\MarchSpeedUpConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\MiniMapCityConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\MiniMapPassConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\MonthCardConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\NPCCityConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\OccupyPointsConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\PassConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\PlayerHeroAvatarConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\PointsLimitConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\ProductConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\ResourceBasicTypeConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\ResourceProduceConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\ResourceTroopConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\SiegeUpConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\SkillConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\SkillEffectConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\StrongholdRecruitConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\TaskConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\TileEnemyConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\TileRewardConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\TreasureConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\TributeBuildingConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\TributeConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Configure\WarehouseAttributeConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\AnimationConst.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\ArtConst.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\AudioPath.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\BattleConst.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\FteConst.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\GameConst.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\LocalConst.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\LocalHashConst.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\MaterialPath.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\PathConst.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\PoukouteException.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\PrefabName.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\PrefabPath.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\SceneToModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\SelectCurveConst.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\SkillConst.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\SpritePath.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\SpritePathHashConst.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\UIOrderConst.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\VersionConst.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Const\VersionConstExtension.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Empty4Raycast.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\AdvanceSdkManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\AlertManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\AnimationManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\CapturePointsConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\ConfigureManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\ConfigureManager.logic.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\EventManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\FteManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\GameManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\LocalManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\MapElementManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\ModelManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\NetManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\PoolManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\RoleManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\ScreenEffectManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\SdkManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\TriggerManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\UIManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\UIManager.Logic.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\UIManager.UIBind.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\UpdateManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Managers\YieldManager.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\AccountModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\ActivityMapTileModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Alliance\AllianceCreateOrJoinModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Alliance\AllianceDetailModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Alliance\AllianceInfoModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Alliance\AllianceModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Alliance\IAllianceEdit.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\BaseModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Battle\BattleModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Battle\BattleReportModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Battle\SoldierSliderModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Build\BuildModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\CampaignModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\ChatRoomModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\FteModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\HeroModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\HouseKeeper\HouseKeeperDailyModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\HouseKeeper\HouseKeeperModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\LoginModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Mail\MailModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Map\MapInfo.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Map\MapPlayerInfo.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Map\MapResourceInfo.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\MapMarkModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\MapModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\MapTileModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\MarchModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\MiniMapModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Mission\DailyTaskModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Mission\DramaModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Mission\MissionModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\QueueModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\Rank\RankModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\RecruitModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\SelectServerModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\TreasureMapModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\TributeModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Models\TroopModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\Extension\TroopExtension.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\GameTypeExtentsion.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\NetHandler.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\BclHelpers.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\BufferExtension.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\BufferPool.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\CallbackAttributes.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Compiler\CompilerContext.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Compiler\CompilerDelegates.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Compiler\Local.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\DataFormat.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Extensible.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\ExtensibleUtil.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\GlobalSuppressions.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Helpers.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\IExtensible.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\IExtension.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\ImplicitFields.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\KeyValuePairProxy.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Meta\AttributeMap.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Meta\BasicList.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Meta\CallbackSet.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Meta\MetaType.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Meta\RuntimeTypeModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Meta\SubType.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Meta\TypeFormatEventArgs.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Meta\TypeModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Meta\ValueMember.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\NetObjectCache.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\PrefixStyle.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\ProtoContractAttribute.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\ProtoConverterAttribute.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\ProtoEnumAttribute.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\ProtoException.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\ProtoIgnoreAttribute.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\ProtoIncludeAttribute.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\ProtoMemberAttribute.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\ProtoReader.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\ProtoWriter.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\SerializationContext.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\ArrayDecorator.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\BlobSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\BooleanSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\ByteSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\CharSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\CompiledSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\DateTimeSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\DecimalSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\DefaultValueDecorator.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\DoubleSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\EnumSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\FieldDecorator.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\GuidSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\ImmutableCollectionDecorator.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\Int16Serializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\Int32Serializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\Int64Serializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\IProtoSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\IProtoTypeSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\ISerializerProxy.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\KeyValuePairDecorator.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\ListDecorator.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\MemberSpecifiedDecorator.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\NetObjectSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\NullDecorator.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\ParseableSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\PropertyDecorator.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\ProtoDecoratorBase.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\ReflectedUriDecorator.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\SByteSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\SingleSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\StringSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\SubItemSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\SurrogateSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\SystemTypeSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\TagDecorator.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\TimeSpanSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\TupleSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\TypeSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\UInt16Serializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\UInt32Serializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\UInt64Serializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\Serializers\UriDecorator.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\ServiceModel\ProtoBehaviorAttribute.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\ServiceModel\ProtoBehaviorExtensionElement.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\ServiceModel\ProtoEndpointBehavior.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\ServiceModel\ProtoOperationBehavior.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\ServiceModel\XmlProtoSerializer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\SubItemToken.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\protobuf-net\WireType.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\Protocal\ChatProtocol.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\Protocal\NetProtocol.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\Protocal\WebSocketProtocol.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\Protocol.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Net\ProtocolExtension.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Others\BattleStateMachineBehaviour.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Others\ChestSetting.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Others\CsvReader.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Others\IPoolHanlder.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Others\LocalizedText.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Others\LocalizedTextMeshPro.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Others\MapClickMask.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Others\PathAttribute.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Others\Pool\AnimatorPoolMember.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Others\Pool\BasePool.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Others\Pool\TilePool.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Others\PreferenceAttribute.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Others\TileOutline.cs" />
+     <Compile Include="Assets\Scripts\CSharp\PinchInputModule.cs" />
+     <Compile Include="Assets\Scripts\CSharp\SDK\AdjustSdk.cs" />
+     <Compile Include="Assets\Scripts\CSharp\SDK\FacebookSdk.cs" />
+     <Compile Include="Assets\Scripts\CSharp\SDK\GooglePlay.cs" />
+     <Compile Include="Assets\Scripts\CSharp\SDK\LyCSSdk.cs" />
+     <Compile Include="Assets\Scripts\CSharp\SDK\LyDataSdk.cs" />
+     <Compile Include="Assets\Scripts\CSharp\SDK\LYGameData.cs" />
+     <Compile Include="Assets\Scripts\CSharp\SDK\LySdk.cs" />
+     <Compile Include="Assets\Scripts\CSharp\SDK\LYVoiceCallback.cs" />
+     <Compile Include="Assets\Scripts\CSharp\SDK\LYVoiceSdk.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomBaseSlider.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomButton.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomButtonWithDrag.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomClick.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomContentSizeFitter.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomDrag.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomDrop.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomFixPosition.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomGridLayoutGroup.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomImage.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomInput.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomLayoutGroup.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomLayoutUtility.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomPhysics2DRaycaster.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomScrollRect.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomSetPropertyUtility.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomSlider.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomSliderMove.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomTextHref.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomToggle.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\CustomVerticalLayoutGroup.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\Effect\Gradient.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\PathAttributeDrawer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\PreferenceAttributeDrawer.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\TextMeshProUGUIHref.cs" />
+     <Compile Include="Assets\Scripts\CSharp\UI\UIExtension.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Utils\GameHelper.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Utils\MapUtils.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Utils\PrefabLoader.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\ActivityMapTileViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Alliance\AllianceInfo\AllianceInfoViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Alliance\AllianceViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Alliance\CreateOrSearch\AllianceCreateOrJoinViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Alliance\CreateOrSearch\AllianceCreateViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Alliance\CreateOrSearch\AllianceSearchViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Alliance\OwnAllianceDetail\AllianceCitiesViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Alliance\OwnAllianceDetail\AllianceDetailViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Alliance\OwnAllianceDetail\AllianceMembersViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Alliance\OwnAllianceDetail\AlliancePanelViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Alliance\OwnAllianceDetail\AllianceSubordinateViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Alliance\SubWindows\AllianceApplyViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Alliance\SubWindows\AllianceEditViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Alliance\SubWindows\AllianceLogoViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Alliance\SubWindows\AllianceSubordinateStatusViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Alliance\SubWindows\AllianceSubWindowsViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\AllianceDisplayBoardViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\AllianceLangChooseViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\BanaerViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\BaseViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Battle\BattleReportDetailViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Battle\BattleViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\BossInfoViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Build\BuildEditViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Build\BuildViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\BuildInfoViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\BuildUnlockViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\CampaignPreheatViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\CampaignRewardViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\CampaignRuleViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\CampaignViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\ContinentDisputes\ContinentDisputesDetailsViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\ContinentDisputes\ContinentDisputesRankViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\ContinentDisputes\ContinentDisputesStatisticsViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\ContinentDisputes\ContinentDisputesViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\DailyReward\DailyRewardReceivedViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\DailyReward\DailyRewardViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\DevilFighting\DevilFightingDetailViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\DevilFighting\DevilFightingRankViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\DevilFighting\DevilFightingViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\HoldGroundKing\HoldGroundKingDetailsViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\HoldGroundKing\HoldGroundKingRankingViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\HoldGroundKing\HoldGroundKingStatisticsViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Campaign\HoldGroundKing\HoldGroundKingViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\CampaignCitySelectViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\CampaignRewardDominationViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Chat\ChatNewPrivateViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Chat\ChatPrivateDetailViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Chat\ChatPrivateViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Chat\ChatRoomViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\ChatAllianceViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\ChatStateViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\ChatWorldViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Country\CountryViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Country\OnCountryClick.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\DailyRewardNoRewardViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\DemonShadowHistoryRankViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\FallenInfo\FallenInfoViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\FirstDownRewardViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\ForceViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\FteViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\GetTileTipViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Hero\HeroInfoViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Hero\HeroListViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Hero\HeroLotteryViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Hero\HeroPoolViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\HeroSelectViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\HeroTierUpViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\HeroViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\HouseKeeper\HouseakeeperDailyViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\HouseKeeper\HouseKeeperResourcesInfoViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\HouseKeeperViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\LoginViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Mail\BattleReportViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Mail\MailSystemViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Mail\MailViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Map\Fte\FteDemonAppear.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Map\Fte\FteTrigger.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Map\MapRightHUDViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Map\MapTileDetailViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Map\MapTileViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Map\MapTopHUDViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Map\MapViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Map\MarchViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Map\TileRewardViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Map\TroopSelectViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Map\UpgradeViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\MapMarkViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\MapSNRankViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\MarchConfirmViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\MiniMapCityViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\MiniMapPassViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\MiniMapTileViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\MiniMapViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Mission\DailyTaskViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Mission\DramaViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Mission\MissionViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\OpenChestViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\PayRewardViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\PlayerAllianceInfo\DisplayBoardViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\PlayerAllianceInfo\PlayerAllianceInfoViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\PlayerInfo\PlayerInfoStateViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\PlayerInfo\PlayerInfoViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\QueueViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Rank\AllianceRankViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Rank\OccupationRankViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Rank\PersonalRankViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Rank\RankViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\RecruitViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\RoleAvatarViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\ScreenEffectViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\SelectServer\SelectServerViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Setting\GameSettingViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Setting\LangChooseViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\SmartGiftBagViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Tips\BattleReportTipViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\TreasureMapViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\TributeViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\Troop\TroopFormationViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewModels\TroopInfoViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AllianceApplyViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AllianceCitiesViewViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AllianceCityHeadViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AllianceCreateOrJoinViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AllianceCreateViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AllianceDetailViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AllianceEditViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AllianceHeadViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AllianceLogoViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AlliancePanelViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AllianceRankViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AllianceSearchViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AllianceSortViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AllianceSubordinateStatusViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AllianceSubordinateViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AllianceSubWindowsViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Alliance\AllianceViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\BaseViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Battle\BattleReportDetailViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Battle\BattleReportTipViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Battle\BattleReportViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Battle\BattleViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Build\BuildEditViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Build\BuildInfoViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Build\BuildUnlockViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Build\BuildViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Build\GetTileTipViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\ChapterCompletePreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Chat\ChatAllianceViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Chat\ChatNewPrivateViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Chat\ChatPrivateDetailViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Chat\ChatPrivateViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Chat\ChatRoomViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Chat\ChatWorldViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\ChatStateViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\DailyItemPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\DisplayBoardViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\FallenInfoViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\FBItemPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\FBLoginViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\FirstDownRewardViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\ForceViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\FteViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Hero\HeroInfoViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Hero\HeroListViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Hero\HeroLotteryViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Hero\HeroPoolViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Hero\HeroSelectViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Hero\HeroTierUpViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Hero\HeroViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\HouseKeeper\HouseKeeperDailyViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\HouseKeeper\HouseKeeperResourcesPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\HouseKeeper\HouseKeeperViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\HouseKeeper\PlayerInfoStateViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\MailSystemViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\MailViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Map\MapMarkViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Map\MapTileDetailViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Map\MapTileViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Map\MapTopHUDViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Map\MapViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Map\UpgradeViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\MapSNRankViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\MarchViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\MiniMap\MiniMapCityViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\MiniMap\MiniMapPassViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\MiniMap\MiniMapTileViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\MiniMap\MiniMapViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\MissionViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\OccupationRankViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\OpenChestHeroInfoViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\OpenChestViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\Pay\PayRewardViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\PersonalRankViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\PlayerAllianceInfoViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\RankViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\RecruitViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\ScreenEffectViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\SelectServer\SelectServerViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\TileRewardViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\TreasureMapViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\TributeViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\TroopFormationViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\ViewPreferences\TroopInfoViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\ActivityMapTileView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\AlertContentWithTips.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\AllianceDisplayBoard\AllianceDescTypeViewItem.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\AllianceDisplayBoard\AllianceDisplayBoardViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\AllianceInfo\AllianceInfoView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\AllianceInfo\AllianceInfoViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\AllianceView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\CreateOrSearch\AllianceCreateOrJoinView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\CreateOrSearch\AllianceCreateView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\CreateOrSearch\AllianceSearchView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\ListItem\AllianceCityItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\ListItem\AllianceListItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\ListItem\AllianceMarkItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\ListItem\AllianceMemberItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\ListItem\AlliancePassItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\ListItem\AllianceSubordnateItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\OwnAllianceDetail\AllianceCitiesView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\OwnAllianceDetail\AllianceDetailView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\OwnAllianceDetail\AllianceMembersView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\OwnAllianceDetail\AllianceMembersViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\OwnAllianceDetail\AlliancePanelView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\OwnAllianceDetail\AllianceSubordinateView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\SubWindows\AllianceApplyView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\SubWindows\AllianceEditView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\SubWindows\AllianceLogoView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\SubWindows\AllianceSubordinateStatusView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Alliance\SubWindows\AllianceSubWindowsView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\AllianceDisplayBoardView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\AllianceLangChooseView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\AllianceLangChooseViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\AttributeView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Base\ListItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Base\TypeChooseView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\BasePrefabViews\ItemWithCountView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\BasePrefabViews\PanelNewTabsView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\BasePrefabViews\PanelOnlyTabsView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\BasePrefabViews\PanelStageRewardsView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\BaseView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Battle\BattleAction.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Battle\BattleCamera.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Battle\BattleEffectAction.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Battle\BattleEffectPositionView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Battle\BattleEffectView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Battle\BattleHealthView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Battle\BattleNormalView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Battle\BattlePositionView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Battle\BattlePrerenderView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Battle\BattleReportItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Battle\BattleResultItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Battle\BattleSimulatorPosView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Battle\BattleView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\BindView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\BossInfoView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Build\BuildEdirotPrefabView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Build\BuildEditView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Build\BuildInfoView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Build\BuildingBarView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Build\BuildingProgressBarView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Build\BuildItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Build\BuildView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Build\UnlockBuilding.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\BuildUnlockView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\CampaignBtnView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\CampaignCitySelectView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\CampaignCitySelectViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\CampaignDemonItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\CampaignPromptingItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\CampaignRewardDominationView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\CampaignRewardDominationViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\CampaignRewardItem.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\CampaignRewardView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\CampaignRewardViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\CampaignRuleView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\CampaignRuleViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\CampaignView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\CampaignViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\CampainGuideItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\CampainRewardTitle.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\ContinentDisputes\ContinentDisputesDetails\ContinentDisputesDetailsView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\ContinentDisputes\ContinentDisputesDetails\ContinentDisputesDetailsViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\ContinentDisputes\ContinentDisputesRanking\ContinentDisputesRankView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\ContinentDisputes\ContinentDisputesRanking\ContinentDisputesRankViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\ContinentDisputes\ContinentDisputesStatistics\AllianceRankingBaseView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\ContinentDisputes\ContinentDisputesStatistics\ContinentDisputesStatisticsView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\ContinentDisputes\ContinentDisputesStatistics\ContinentDisputesStatisticsViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\ContinentDisputes\ContinentDisputesView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\ContinentDisputes\ContinentDisputesViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DailyReward\DailyRewardItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DailyReward\DailyRewardNoRewardViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DailyReward\DailyRewardReceivedView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DailyReward\DailyRewardReceivedViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DailyReward\DailyRewardView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DailyReward\DailyRewardViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DemonShadow\ActivityMapRankView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DemonShadow\ActivityMapTileViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DemonShadow\BossInfoViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DemonShadow\DemonShadowDetailsView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DemonShadow\DemonShadowDetailsViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DemonShadow\DemonShadowDetailsViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DemonShadow\DemonShadowHistoryDetailItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DemonShadow\DemonShadowHistoryRankViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DemonShadow\DemonShadowHistoryView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DemonShadow\DemonShadowHistoryViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DemonShadow\DemonShadowHistoryViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DemonShadow\DemonShadowView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DemonShadow\DemonShadowViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DemonShadow\DemonShadowViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DevilFighting\DemonShadowRankItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DevilFighting\DevilFightingDetailView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DevilFighting\DevilFightingDetailViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DevilFighting\DevilFightingRankItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DevilFighting\DevilFightingRankView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DevilFighting\DevilFightingRankViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DevilFighting\DevilFightingRewardSampleView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DevilFighting\DevilFightingView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\DevilFighting\DevilFightingViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\HeroFragmentView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\HoldGroundKing\HoldGroundKingDetails\DisputesIntegralItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\HoldGroundKing\HoldGroundKingDetails\HoldGroundKingDetailsView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\HoldGroundKing\HoldGroundKingDetails\HoldGroundKingDetailsViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\HoldGroundKing\HoldGroundKingRanking\HoldGroundKingRankingView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\HoldGroundKing\HoldGroundKingRanking\HoldGroundKingRankingViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\HoldGroundKing\HoldGroundKingStatistics\HoldGroundKingStatisticsView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\HoldGroundKing\HoldGroundKingStatistics\HoldGroundKingStatisticsViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\HoldGroundKing\HoldGroundKingStatistics\PointsStatisticsItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\HoldGroundKing\HoldGroundKingView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\HoldGroundKing\HoldGroundKingViewPeference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\HoldGroundKing\HoldStageRewardsView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\Preheat\CampaignPreheatView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\Preheat\CampaignPreheatViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\Preheat\CountDownDayView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\Preheat\CountDownHourView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\RewardsItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Campaign\RewardsViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Chat\ChatAllianceView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Chat\ChatNewPrivateView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Chat\ChatPrivateDetailView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Chat\ChatPrivateView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Chat\ChatRoomView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Chat\ChatWorldView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Chat\MessageItemView\AllianceSlaveInfoMessageView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Chat\MessageItemView\ChatAllianceApplyView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Chat\MessageItemView\ChatAllianceMessageView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Chat\MessageItemView\ChatMessageView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Chat\MessageItemView\MailNormalItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\ChatStateView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Country\CountryView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Country\CountryViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Country\SpriteOutline.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\DailyRewardNoRewardView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\DebugView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\DemonShadowHistoryRankView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\diffItem\AllianceLogoItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\diffItem\HeroCardsInfo.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\diffItem\LightweightTipsView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\diffItem\MissionResourcesItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\diffItem\PlayerResourcesItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\diffItem\ResourcesBonusView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\diffItem\TroopItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\diffItem\UpgradeResourcesItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\FacebookLogin.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\FallenInfo\FallenInfoView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\FallenInfo\FallenResourceItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Force\ForceItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Force\ForceRewardConf.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Force\ForceView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\FteStarView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\FteView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\GameDebugView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\GameGlobalTips.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\GetTileTipView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\HeroInfoView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\HeroListView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\HeroLotteryView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\HeroPoolView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\ItemView\ChestCardReceiver.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\ItemView\ChestCardView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\ItemView\ChestEffectView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\ItemView\ChestView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\ItemView\HeroAvatar.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\ItemView\HeroBigGroupView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\ItemView\HeroHeadView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\ItemView\HeroSkillView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\ItemView\LotteryItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\ItemView\NewHeroView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\ItemView\RoundHeroView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\LotteryButtonView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Hero\OpenChestView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\HeroSelectView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\HeroTierUpView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\HeroView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\HouseKeeper\DailyItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\HouseKeeper\HouseKeeperDailyView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\HouseKeeper\HouseKeeperResourcesInfoView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\HouseKeeperView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\LoginView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\LyLoginViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Mail\BattleReportDetailView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Mail\BattleReportRoundItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Mail\BattleReportView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Mail\MailSystemItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Mail\MailSystemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Mail\MailView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\BattleResultPreview.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\CloudView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\FirstDownRewardItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\FirstDownRewardView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\MapBuildingNoticeItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\MapHeroHeadView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\MapNoticeItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\MapRecruitNoticeItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\MapResourceItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\MapRightHUDView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\MapTileDetailView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\MapTileView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\MapTopHUDView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\MapView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\MarchLineView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\MarchView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\MiniMap.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\QueueItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\TerrainBackgroundView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\TileButtonView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\TileHighlightView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\TileRewardView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\TileTroopView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\TileView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\TributeAirShipView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\TroopSelectItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\TroopSelectView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Map\UpgradeView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\MapElement\AnimalElementRootView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\MapElement\BaseMapElementRootView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\MapElement\EagleElementRootView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\MapElement\MapElementView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\MapSNRankView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\MarchConfirmView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\MarchConfirmViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\MiniMap\MapMarkView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\MiniMap\MiniMapCityView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\MiniMap\MiniMapCollider.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\MiniMap\MiniMapPassView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\MiniMap\MiniMapTileItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\MiniMap\MiniMapTileView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\MiniMap\MiniMapView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Mission\BannaerView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Mission\BannaerViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Mission\DailyTaskItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Mission\DailyTaskView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Mission\DailyTaskViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Mission\DramaItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Mission\DramaView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Mission\DramaViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Mission\MissionView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Mission\RewardStageItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\NoviceState\NoviceStateView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\NoviceState\NoviceStateViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\NoviceState\NoviceStateViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\pay\DailyGiftDetailsPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\pay\DailyGiftDetailsView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\pay\DailyGiftDetailsViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\pay\PayCountersignView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\pay\PayCountersignViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\pay\PayCountersignViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\pay\PayModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\pay\PayMonthCardItemViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\pay\PayPduItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\pay\PayPduItemViewPriference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\pay\PayView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\pay\PayViewModel.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\pay\PayViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\pay\StoreBtnView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\PayRewardView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\PlayerAllianceInfo\DisplayBoardView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\PlayerAllianceInfo\PlayerAllianceInfoView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\PlayerInfo\PlayerInfoStateView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\PlayerInfo\PlayerInfoView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\PlayerInfo\PlayerInfoViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\QueueView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Rank\AllianceRankView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Rank\MapSNRankItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Rank\OccupationRankView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Rank\PersonalRankView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Rank\RankAllianceItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Rank\RankOccupationItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Rank\RankPlayerItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Rank\RankView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\RecruitView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\ResourceItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\RoleAvatarItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\RoleAvatarView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\RoleAvatarViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\ScreenEffectView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\SelectServer\SelectServerView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\SelectServer\ServerItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\SelectServer\ServerToggleItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Setting\GameSettingView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Setting\GameSettingViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Setting\LangChooseView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Setting\LangChooseViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Setting\LanguageItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\SmartGiftBagView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\SmartGiftBagViewPreference.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\SplashView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\TimeView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Tips\BattleReportTipView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\TreasureMapView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\TributeView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Troop\RecruitItemView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Troop\TroopFormationView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\Troop\TroopGridView.cs" />
+     <Compile Include="Assets\Scripts\CSharp\Views\TroopInfoView.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\DLLSources\IScrollRectProxy.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\DLLSources\ISRIAPointerInputModule.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\DLLSources\ScrollRectItemsAdapter\AbstractViewsHolder.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\DLLSources\ScrollRectItemsAdapter\BaseItemViewsHolder.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\DLLSources\ScrollRectItemsAdapter\BaseParams.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\DLLSources\ScrollRectItemsAdapter\InternalStateGeneric.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\DLLSources\ScrollRectItemsAdapter\ISRIA.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\DLLSources\ScrollRectItemsAdapter\ItemCountChangeMode.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\DLLSources\ScrollRectItemsAdapter\ItemsDescriptor.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\DLLSources\ScrollRectItemsAdapter\SRIA.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\DLLSources\ScrollRectItemsAdapter\SRIAInternal.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\DLLSources\ScrollRectItemsAdapter\Utils.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\GridView\CellGroupViewsHolder.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\GridView\GridAdapter.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\GridView\GridParams.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\RectTransformExtensions.cs" />
+     <Compile Include="Assets\Scripts\ScrollViewAdapter\SimpleFPSCounter.cs" />
+     <Compile Include="Assets\Scripts\Test\ClickTest.cs" />
+     <Compile Include="Assets\Scripts\Test\FPSShow.cs" />
+     <Compile Include="Assets\Scripts\Test\KeyboardTest.cs" />
+     <Compile Include="Assets\Scripts\Test\MapTest.cs" />
+     <Compile Include="Assets\Scripts\Test\ParticleCamera.cs" />
+     <Compile Include="Assets\Scripts\Test\ParticleRender.cs" />
+     <Compile Include="Assets\Scripts\Test\ParticleToSprite.cs" />
+     <Compile Include="Assets\Scripts\Test\RandomGenerator.cs" />
+     <Compile Include="Assets\Scripts\Test\RepeatSpriteBoundary.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulation3DModel.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulation3DView.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulation3DViewModel.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulationModel.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulationReportDetailView.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulationReportDetailViewModel.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulationReportDetailViewPreference.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulationReportItemView.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulationReportView.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulationReportViewModel.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulationReportViewPreference.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulationStatView.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulationStatViewModel.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulationStatViewPreference.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulationView.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulationViewModel.cs" />
+     <Compile Include="Assets\Scripts\Test\Simulation\BattleSimulationViewPreference.cs" />
+     <Compile Include="Assets\Scripts\Test\TakeScreenShot.cs" />
+     <Compile Include="Assets\SDK\Adjust\3rd Party\SimpleJSON.cs" />
+     <Compile Include="Assets\SDK\Adjust\Adjust.cs" />
+     <Compile Include="Assets\SDK\Adjust\Android\AdjustAndroid.cs" />
+     <Compile Include="Assets\SDK\Adjust\iOS\AdjustiOS.cs" />
+     <Compile Include="Assets\SDK\Adjust\Metro\AdjustMetro.cs" />
+     <Compile Include="Assets\SDK\Adjust\Unity\AdjustAttribution.cs" />
+     <Compile Include="Assets\SDK\Adjust\Unity\AdjustConfig.cs" />
+     <Compile Include="Assets\SDK\Adjust\Unity\AdjustEnvironment.cs" />
+     <Compile Include="Assets\SDK\Adjust\Unity\AdjustEvent.cs" />
+     <Compile Include="Assets\SDK\Adjust\Unity\AdjustEventFailure.cs" />
+     <Compile Include="Assets\SDK\Adjust\Unity\AdjustEventSuccess.cs" />
+     <Compile Include="Assets\SDK\Adjust\Unity\AdjustLogLevel.cs" />
+     <Compile Include="Assets\SDK\Adjust\Unity\AdjustSessionFailure.cs" />
+     <Compile Include="Assets\SDK\Adjust\Unity\AdjustSessionSuccess.cs" />
+     <Compile Include="Assets\SDK\Adjust\Unity\AdjustUtils.cs" />
+     <Compile Include="Assets\SDK\Adjust\Unity\IAdjust.cs" />
+     <Compile Include="Assets\SDK\WebSocket\Scripts\WebSocket.cs" />
+     <None Include="Assets\Tools\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Arts\Shaders\CustomSpriteTop.shader" />
+     <None Include="Assets\Tools\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Arts\Shaders\CustomUIAboveAll.shader" />
+     <None Include="Assets\Arts\Shaders\CustomSpriteMask.shader" />
+     <None Include="Assets\Arts\Fonts\font.txt" />
+     <None Include="Assets\Arts\Shaders\CustomSpriteZTest.shader" />
+     <None Include="Assets\Tools\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Arts\Shaders\CustomFade.shader" />
+     <None Include="Assets\SDK\Adjust\Android\AdjustAndroidManifest.xml" />
+     <None Include="Assets\Tools\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Tools\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Resources\Configures\version.txt" />
+     <None Include="Assets\Arts\Shaders\CustomSpriteTransparent.shader" />
+     <None Include="Assets\Arts\Shaders\CustomOutlightting.shader" />
+     <None Include="Assets\Arts\Shaders\CustomUIMove.shader" />
+     <None Include="Assets\Arts\Shaders\CustomUIGradient.shader" />
+     <None Include="Assets\Arts\Shaders\CustomUIGrayAll.shader" />
+     <None Include="Assets\Arts\Shaders\CustomUIFont.shader" />
+     <None Include="Assets\Tools\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Tools\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Arts\Shaders\Custom-Mobile-Diffuse-Color.shader" />
+     <None Include="Assets\SDK\Adjust\Metro\System.Net.Http.Extensions.xml" />
+     <None Include="Assets\Tools\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Arts\Shaders\CustomMask.shader" />
+     <None Include="Assets\SDK\Adjust\Metro\System.Net.Http.Primitives.xml" />
+     <None Include="Assets\Arts\Shaders\CustomUIOutline.shader" />
+     <None Include="Assets\Tools\DependencyPro\AssetUsageFinderGuidelines.txt" />
+     <None Include="Assets\Tools\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\Tools\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\SDK\Adjust\Metro\PCLStorage.Abstractions.xml" />
+     <None Include="Assets\Arts\Shaders\CustomSpriteOutline.shader" />
+     <None Include="Assets\Arts\water\Shader\EneryShield.shader" />
+     <None Include="Assets\Tools\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Arts\Shaders\CustomTest.shader" />
+     <None Include="Assets\Arts\Shaders\CustomUIWhite.shader" />
+     <None Include="Assets\Tools\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\Tools\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Arts\Shaders\CustomUIDefault.shader" />
+     <None Include="Assets\Arts\Shaders\CustomSpriteTiling.shader" />
+     <None Include="Assets\Arts\Shaders\CustomUIScan.shader" />
+     <None Include="Assets\Tools\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Arts\Shaders\CustomUIGray.shader" />
+     <None Include="Assets\Arts\Shaders\CustomUIFastDefault.shader" />
+     <None Include="Assets\Tools\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Arts\Shaders\Effect\SM_TransparentRim.shader" />
+     <None Include="Assets\Arts\Shaders\CustomSpecialHero.shader" />
+     <None Include="Assets\Arts\Shaders\CustomDiffuse.shader" />
+     <None Include="Assets\Arts\Shaders\CustomSpriteEnhance.shader" />
+     <None Include="Assets\Arts\Shaders\CustomUIMasked.shader" />
+     <None Include="Assets\Arts\Shaders\CustomDefaultShader.shader" />
+     <None Include="Assets\SDK\Adjust\Metro\Newtonsoft.Json.xml" />
+     <None Include="Assets\Arts\Shaders\CustomLineTiling.shader" />
+     <None Include="Assets\Arts\Shaders\CustomWater.shader" />
+     <None Include="Assets\Arts\Shaders\CustomUIExposureAll.shader" />
+     <None Include="Assets\Arts\Shaders\Custom-Alpha-Cutoff-Diffuse.shader" />
+     <None Include="Assets\Arts\Shaders\CustomSelfIlluminNoambient.shader" />
+     <None Include="Assets\SDK\FacebookSDK\link.xml" />
+     <None Include="Assets\Arts\Fonts\Universal\Universal.txt" />
+     <None Include="Assets\Arts\Shaders\Effect\Displacement Map Add.shader" />
+     <None Include="Assets\Scripts\CSharp\Net\protobuf-net\Web\TODO.txt" />
+     <None Include="Assets\Arts\Shaders\CustomDepthMask.shader" />
+     <None Include="Assets\Arts\Shaders\CustomSelfIlluminDiffuse.shader" />
+     <None Include="Assets\Arts\Shaders\CustomSpriteOpaque.shader" />
+     <None Include="Assets\Arts\Shaders\CustomUIMask.shader" />
+     <None Include="Assets\Arts\Shaders\CustomSpriteDefault.shader" />
+     <None Include="Assets\Arts\Shaders\CustomUIExposureStar.shader" />
+     <None Include="Assets\Arts\Shaders\Custom-Alpha-Cutoff-Diffuse-No-Light.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="LyStatisticLib">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/LyStatisticLib.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/Android/LitJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.Protobuf">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/Other/google/Google.Protobuf.dll</HintPath>
+ </Reference>
+ <Reference Include="NestedPrefabs">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/Other/nested-prefabs/NestedPrefabs.dll</HintPath>
+ </Reference>
+ <Reference Include="NestedPrefabs_Editor">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/Other/nested-prefabs/NestedPrefabs_Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Debug">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/Other/poukoute/Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="VisualDesignCafe.Editor.Analytics">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/Visual Design Cafe/Assemblies/VisualDesignCafe.Editor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="VisualDesignCafe.Editor">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/Visual Design Cafe/Assemblies/VisualDesignCafe.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="NestedPrefabs.Package">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/Visual Design Cafe/Nested Prefabs/NestedPrefabs.Package.dll</HintPath>
+ </Reference>
+ <Reference Include="AdjustUnityWS10">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/SDK/Adjust/AdjustUnityWS10.dll</HintPath>
+ </Reference>
+ <Reference Include="AdjustUnityWS81">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/SDK/Adjust/AdjustUnityWS81.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/SDK/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/SDK/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/SDK/WebSocket/Plugins/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-1.0.55.56.0b11">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Tools/TextMesh Pro/Plugins/TextMeshPro-1.0.55.56.0b11.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{F2B33293-1C60-86E2-28BA-1F443C3D7EA4}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

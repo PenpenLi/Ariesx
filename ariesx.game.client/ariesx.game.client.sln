@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ariesx.game.client", "Assembly-CSharp.csproj", "{67A426DD-EE91-A0AB-5456-2B094630D5F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ariesx.game.client", "Assembly-CSharp-firstpass.csproj", "{F2B33293-1C60-86E2-28BA-1F443C3D7EA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ariesx.game.client", "Assembly-CSharp-Editor.csproj", "{322C1551-D910-A738-BCA6-C94220194423}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67A426DD-EE91-A0AB-5456-2B094630D5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A426DD-EE91-A0AB-5456-2B094630D5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A426DD-EE91-A0AB-5456-2B094630D5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A426DD-EE91-A0AB-5456-2B094630D5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B33293-1C60-86E2-28BA-1F443C3D7EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B33293-1C60-86E2-28BA-1F443C3D7EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B33293-1C60-86E2-28BA-1F443C3D7EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B33293-1C60-86E2-28BA-1F443C3D7EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322C1551-D910-A738-BCA6-C94220194423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322C1551-D910-A738-BCA6-C94220194423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322C1551-D910-A738-BCA6-C94220194423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322C1551-D910-A738-BCA6-C94220194423}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

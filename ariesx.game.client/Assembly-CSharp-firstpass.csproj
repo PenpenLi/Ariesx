@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F2B33293-1C60-86E2-28BA-1F443C3D7EA4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_1;UNITY_2017_4;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;LONGYUAN;DEVELOPER;NOLYLOGIN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\activity_demo_game.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_chat_reply.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\dialog_no_net_layout.xml" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\frag_live_voice.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ly_service_main.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_anchor_list_item_background.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\dialog_buy_love.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\ilong_chat_msg_right.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\item_rv_ticket_img.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_shape_corner_msg_left_text_clicked.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_frag_ticket.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\item_collectauchor.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\item_bottom_dialog.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_frag_main_myticket.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_shape_corner_item_language.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_loading_shape_yellow_small.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\lyvoice_main.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\animator\ilong_chat_fragment_slide_left_out.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_frame_loading3.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\activity_demo_main.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_oval_gray_blue_selected.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_shape_corner_msg_level.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_frag_main_help.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_chat_reply_noresult.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_circle_img.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_text_gray_blue_selected.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\item_lv_ticket_type_4.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\activity_demo_game_main.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_chat_right.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\dialog_live_disconnect_layout.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\frag_listen_voice.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\anim\ilong_chat_push_bottom_out.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\anim\ilong_chat_push_above_in.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\dialog_exchange_whenlive_layout.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\dialog_content_bottom_list.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_listen_voice_anchor_userinfo.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_shape_msg_system.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\animator\ilong_chat_im_zoom_center.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ly_service_image_detail_pager.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\values-en\values-en.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\btn_bg_trans.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\bg_dialog.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_loading_shape_red_small.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_pop_leave.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilongyuan_red_point.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\search_bg.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_chat_evaluate.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\item_lv_ticket_type_2.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_frag_myticket_detial.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_frame_loading3.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\AndroidManifest.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\item_lv_help.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_square_right_bg.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\dialog_live_reconnect_layout.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_dialog_buylove_btn_cut.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\dialog_loading.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\chat_dialog_loading.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ly_service_image_detail_fragment.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_frag_search.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_chat_fqa.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_dialog_buylove_seekbar.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\dialog_closelivebyoffline_layout.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\ilong_chat_msg_left_translate.xml" />
+     <None Include="Assets\Plugins\Visual Design Cafe\Nested Prefabs\NestedPrefabs.Editor.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_loading_shape_yellow_big.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_all_actionbar.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_frame_loading1.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_evaluate_finish_bg.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\animator\ilong_chat_fragment_slide_left_in.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\item_anchor_list.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_shape_corner_gift.xml" />
+     <None Include="Assets\Plugins\Visual Design Cafe\Assemblies\VisualDesignCafe.Editor.xml" />
+     <None Include="Assets\Plugins\Android\lydata\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_chat_send_et_bg_yellow.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_chat_send_bt_bg.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_sqrue_blue_radiu_bg.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\dialog_permission_layout.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\ilong_chat_msg_left.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\R.txt" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\anim\ilong_chat_translate_dialog_in.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ly_service_item_list.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\animator\ilong_chat_rotate.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_wait_dialog.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilongyuan_rotate_loading.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_anchor_statistics_popup.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\dialog_general.xml" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\anim\ilong_chat_push_bottom_in.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\assets\sensitiveword\SensitiveWord.txt" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\ilong_chat_msg_send_translate.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\frag_create_linevoice.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_shape_corner_dialog_msg.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_shape_corner_listen_level.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\ilong_chat_view_gift.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_load_error.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\animator\ilong_chat_fragment_slide_right_in.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\item_myticket_progress.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\ilong_chat_msg_left_send.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\item_lv_ticket_type_1.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_oval_gray_bg.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_listen_voice_liveing_input.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_square_left_bg.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_negative_selected.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\btn_bg_gray.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\dialog_cancel_collect_layout.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_shape_corner_msg_right_text.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_oval_blue_bg.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\dialog_create_whenlisten_layout.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_dialog_buylove_btn_add.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Plugins\Other\nested-prefabs\readme.txt" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\dialog_endlive_layout.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\values\values.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_shape_corner_create_tv.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\values-zh-rCN\values-zh-rCN.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_loading_shape_red_big.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_no_anchor.xml" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Plugins\Android\lycs\AndroidManifest.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\values-zh-rTW\values-zh-rTW.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_evaluate_item_selector_bg.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\a_test.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_frag_help_detial.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_shape_msg_time.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_load_error_no_btn.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\ilong_chat_msg_system.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\activity_main.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\animator\ilong_chat_im_anim_empty.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ly_service_item_gridview.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Plugins\Visual Design Cafe\Nested Prefabs\NestedPrefabs.Package.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_search.xml" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_room_msgtranslate_popup.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_evaluate_item.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\values\values.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\frag_linevoice.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\item_myticket_progress_bar.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Plugins\Visual Design Cafe\Nested Prefabs\NestedPrefabs.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\dialog_oneline_layout.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_title_listen_voice.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_ticket_evaluate.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_shape_game_popupwindow.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_frag_main_help_level.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_room_msgopinion_popup.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\item_lv_ticket.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_title.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_listen_voice_userinfo.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_chat_fqa_item.xml" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_evaluate_world_selected.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_listen_voice_input.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_shape_corner_game_btn1.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_chat_fqa_request.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_frame_loading1.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_frag_main.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_loading_shape_orange_big.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\dialog_closelive_layout.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_chat_left.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_frag_main_help_networkerr.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\anim\ilong_chat_translate_dialog_out.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\dialog_cannot_startvoice.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_chat_note.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_shape_corner_msg_left_text.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_frame_loading2.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_ac_chat.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilongyuan_dialog_bg.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\frag_mycollection.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\ilong_layout_title_light.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_chat_send_et_bg.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\anim\ilong_chat_push_above_out.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_no_net.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Plugins\Visual Design Cafe\Nested Prefabs\README.txt" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\animator\ilong_chat_fragment_slide_right_out.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_frag_ticket_detial.xml" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\ilong_chat_msg_time.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\ilong_chat_decoration.xml" />
+     <None Include="Assets\Plugins\Visual Design Cafe\Assemblies\VisualDesignCafe.Editor.Analytics.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_loading_shape_orange_small.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\frag_voiceline_search.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\item_lv_ticket_type_3.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\activity_demo_login.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_no_net_no_btn.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_shape_corner_search_tv.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\drawable\btn_bg_orange.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\drawable\ilong_chat_frame_loading2.xml" />
+     <None Include="Assets\Plugins\Android\lycs\res\layout\ilong_frag_myticket_progress.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_main_collect.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_listen_voice_signature.xml" />
+     <None Include="Assets\Plugins\Android\lyVoice\res\layout\view_title_search.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>D:/Program Files/Unity2017.4.1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="LyStatisticLib">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/LyStatisticLib.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/Android/LitJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.Protobuf">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/Other/google/Google.Protobuf.dll</HintPath>
+ </Reference>
+ <Reference Include="NestedPrefabs">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/Other/nested-prefabs/NestedPrefabs.dll</HintPath>
+ </Reference>
+ <Reference Include="NestedPrefabs_Editor">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/Other/nested-prefabs/NestedPrefabs_Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Debug">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/Other/poukoute/Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="VisualDesignCafe.Editor.Analytics">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/Visual Design Cafe/Assemblies/VisualDesignCafe.Editor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="VisualDesignCafe.Editor">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/Visual Design Cafe/Assemblies/VisualDesignCafe.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="NestedPrefabs.Package">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Plugins/Visual Design Cafe/Nested Prefabs/NestedPrefabs.Package.dll</HintPath>
+ </Reference>
+ <Reference Include="AdjustUnityWS10">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/SDK/Adjust/AdjustUnityWS10.dll</HintPath>
+ </Reference>
+ <Reference Include="AdjustUnityWS81">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/SDK/Adjust/AdjustUnityWS81.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/SDK/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/SDK/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/SDK/WebSocket/Plugins/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-1.0.55.56.0b11">
+ <HintPath>F:/BaiduNetdiskDownload/ariesx/ariesx.game.client/Assets/Tools/TextMesh Pro/Plugins/TextMeshPro-1.0.55.56.0b11.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
